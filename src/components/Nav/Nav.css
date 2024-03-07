@@ -1,0 +1,45 @@
+.nav-bar{
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 55px;
+}
+
+.logo-img{
+    height: 25px;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.option {
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    height: 25px;
+    margin: 0 15px;
+    padding: 5px 15px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+  
+.option:hover {
+    background-color: blue;
+}
+  
+.option {
+    color: black;
+    transition: color 0.3s ease; /* Smooth transition for text color change */
+}
+
+.option:hover {
+    color: white;
+}

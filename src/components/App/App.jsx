@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import Nav from '../Nav/Nav';
 
 function App() {
   return (
+    <>
+    
     <div id="app">
-      <div className="nav-bar">
-        {/* Nav bar */}
-
-      </div>
+      {/* Nav bar */}
+      <Nav/>
+      
       <div className="page">
         <span className='left'>
 
@@ -36,6 +38,8 @@ function App() {
         
       </div>
     </div>
+  
+    </>
   );
 }
 

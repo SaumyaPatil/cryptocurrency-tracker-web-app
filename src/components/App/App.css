@@ -1,5 +1,12 @@
-#app{
-    background-color: aqua;
+body{
+    background-color: #F0F3FF;
     overflow-x: hidden;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
